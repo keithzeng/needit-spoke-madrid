@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">6e59dfa0db12330075049235ca9619e5</block>
+        <comment>Assign follow-up Needlt Task record to output</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Handle Overdue NeedIt Tasks">608fc373db0a330075049235ca961942</flow>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned>follow_up_task</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-24 16:31:47</sys_created_on>
+        <sys_id>862d1b64db12330075049235ca961911</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Needlt Spoke" source="x_370771_needlt_sp">f2e97f63db02330075049235ca9619c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Needlt Spoke">f2e97f63db02330075049235ca9619c8</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_862d1b64db12330075049235ca961911</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-24 16:31:48</sys_updated_on>
+        <ui_id>c9984b96-9992-47ef-81bf-cb16c667277c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=862d1b64db12330075049235ca961911"/>
+    <sys_element_mapping action="delete_multiple" query="id=862d1b64db12330075049235ca961911"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>follow_up_task</field>
+        <id>862d1b64db12330075049235ca961911</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-24 16:31:47</sys_created_on>
+        <sys_id>0e2d1b64db12330075049235ca961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-24 16:31:47</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_608fc373db0a330075049235ca961942</table>
+        <value>{{485fddef-c381-4363-b3c9-86fbac0378ab.Record}}</value>
+    </sys_element_mapping>
+</record_update>

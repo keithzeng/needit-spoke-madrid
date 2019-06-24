@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_subflow_plan">
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"098fc373db0a330075049235ca9619b5","name":"plan"}}</plan>
+        <plan_id display_value="Handle Overdue NeedIt Tasks">a5553e7fdb86330075049235ca9619ec</plan_id>
+        <snapshot>816e97a4db12330075049235ca9619b8</snapshot>
+        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-22 07:36:44</sys_created_on>
+        <sys_id>098fc373db0a330075049235ca9619b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>a5553e7fdb86330075049235ca9619ec</sys_name>
+        <sys_package display_value="Needlt Spoke" source="x_370771_needlt_sp">f2e97f63db02330075049235ca9619c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Needlt Spoke">f2e97f63db02330075049235ca9619c8</sys_scope>
+        <sys_update_name>sys_flow_subflow_plan_098fc373db0a330075049235ca9619b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-24 16:31:48</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>
